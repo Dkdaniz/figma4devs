@@ -12,5 +12,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com:Dkdaniz/figma4devs.git"
+  },
+  "devDependencies": {
+    "axios": "^1.6.2"
   }
 }
