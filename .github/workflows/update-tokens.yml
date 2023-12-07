@@ -17,6 +17,8 @@ jobs:
           name: ${{ github.event.client_payload.filename }}
           json: ${{ github.event.client_payload.tokens }}
           dir: 'input'
+        env:
+          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
       - name: Install Node.js
         uses: actions/setup-node@v3
