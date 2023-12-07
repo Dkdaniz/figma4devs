@@ -8,5 +8,9 @@
   },
   "dependencies": {
     "style-dictionary": "^3.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:Dkdaniz/figma4devs.git"
   }
 }
